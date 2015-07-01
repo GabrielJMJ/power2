@@ -49,6 +49,8 @@ var Persion = {
     }
 }
 
+var persion = Persion.create(Persion.Options.HAIR | Persion.Options.MOUTH | Persion.Options.EYES);
+
 Array.prototype.contains = function (value) {
     for (var k in this) {
         if (this[k] == value) {
