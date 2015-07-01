@@ -1,0 +1,38 @@
+{
+  "name": "power2",
+  "version": "1.0.1",
+  "description": "Get what power two numbers has",
+  "keywords": [
+    "power2",
+    "math"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/GabrielJMJ/power2.git"
+  },
+  "author": "Gabriel Jacinto <gamjj74@hotmail.com>",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./src/power2.js",
+  "devDependencies": {
+    "nodeunit": "0.9.x"
+  },
+  "bugs": {
+    "url": "https://github.com/GabrielJMJ/power2/issues"
+  },
+  "homepage": "https://github.com/GabrielJMJ/power2",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "nodeunit": "^0.9.1"
+  },
+  "scripts": {
+    "test": "nodeunit tests"
+  },
+  "license": "MIT"
+}
