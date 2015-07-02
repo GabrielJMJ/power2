@@ -29,19 +29,19 @@ var Person = {
         options = Power2(options);
         var features = [];
 
-        if (options.contains(Options.HAIR)) {
+        if (options.contains(this.Options.HAIR)) {
             features.push('HAIR');
         }
 
-        if (options.contains(Options.MOUTH)) {
+        if (options.contains(this.Options.MOUTH)) {
             features.push('MOUTH');
         }
 
-        if (options.contains(Options.EYES)) {
+        if (options.contains(this.Options.EYES)) {
             features.push('EYES');
         }
 
-        if (options.contains(Options.NOSE)) {
+        if (options.contains(this.Options.NOSE)) {
             features.push('NOSE');
         }
 
