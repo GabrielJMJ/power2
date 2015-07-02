@@ -18,7 +18,7 @@ console.log(Power2(50)); //32, 16, 2
 
 ### Util example
 ```js
-var Persion = {
+var Person = {
     Options: {
         HAIR:  1
       , MOUTH: 2
@@ -49,7 +49,7 @@ var Persion = {
     }
 }
 
-var persion = Persion.create(Persion.Options.HAIR | Persion.Options.MOUTH | Persion.Options.EYES);
+var person = Person.create(Person.Options.HAIR | Person.Options.MOUTH | Person.Options.EYES);
 
 Array.prototype.contains = function (value) {
     for (var k in this) {
