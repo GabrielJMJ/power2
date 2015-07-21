@@ -28,7 +28,7 @@ var getPower2Numbers = function (n) {
       
         if (isPower2(n)) {
             bigger = n;
-            p = getPower2(n);
+            p = getPower2Numbers(n);
         }
         
         if (bigger !== 0) {
@@ -36,7 +36,7 @@ var getPower2Numbers = function (n) {
                 k = false;
                 p.push(off);
             } else {
-                p = p.concat(getPower2(off));
+                p = p.concat(getPower2Numbers(off));
             }
         }
     }
